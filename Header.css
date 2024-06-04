@@ -62,28 +62,25 @@ main .heading-2 {
   border-radius: 10px;
   /* padding: 20px; */
   background: linear-gradient(to top, #a9c4ff, #e9def9);
-
-  
-
 }
 .right-container p {
   color: #9fa9b5;
 }
 form input {
-  width: 90%;
+  width: 85%;
   background-color: #fafafa;
   padding: 8px;
   margin: 8px;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 form button {
-  width: 90%;
+  width: 85%;
   padding: 8px;
   color: white;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   background: linear-gradient(to right, #3c75ec, #8341ec);
   font-style: italic;
 }
