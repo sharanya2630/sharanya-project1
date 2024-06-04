@@ -1,0 +1,262 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 70px; /* Adjust this value if the height of the navbar changes */
+}
+
+nav {
+  padding: 8px 0px;
+}
+.announce-bar {
+  padding: 10px 0px;
+}
+
+/* main section */
+
+.main-content-p {
+  color: #585958;
+}
+.main-sub-container {
+  /* width: 80%; */
+  margin: auto;
+  border: 1px solid #e3e2e2;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wrapper-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+main .heading-1 {
+  font-size: 1.2rem;
+}
+
+main .heading-1,
+.heading-2 {
+  margin: 0px;
+}
+
+main .heading-2 {
+  font-size: 12px;
+}
+
+.sub-footer {
+  width: fit-content;
+  border-radius: 25px;
+  text-align: center;
+}
+/* right contaner */
+.right-container {
+  /* width: 450px;
+      height: 450px; */
+  border: 1px solid #e3e2e2;
+  border-radius: 10px;
+  /* padding: 20px; */
+}
+.right-container p {
+  color: #9fa9b5;
+}
+form input {
+  width: 90%;
+  background-color: #fafafa;
+  padding: 8px;
+  margin: 8px;
+  border: none;
+  border-radius: 10px;
+}
+
+form button {
+  width: 90%;
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #3c75ec, #8341ec);
+  font-style: italic;
+}
+
+/* courses section */
+
+.courses-heading {
+  font-family: ABeeZee;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 23.64px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  background: linear-gradient(276.97deg, #992fed 0%, #2f80ed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+/* .our-courses{
+font-family: ABeeZee;
+font-size: 36px;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: -0.015em;
+text-align: center;
+background: rgba(47, 128, 237, 1);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent; 
+} */
+.courses-heading1 {
+  background: linear-gradient(276.97deg, #992fed 0%, #2f80ed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.card {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+}
+
+.card-header {
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.card-body p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.card-body ul {
+  padding-left: 0;
+}
+
+.card-body ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.card-body ul li i {
+  margin-right: 10px;
+}
+
+.card-body .btn {
+  margin: 10px 5px 0 0;
+}
+
+.beginner-card {
+  border-color: #007bff;
+}
+
+.intermediate-card {
+  border-color: #ffc107;
+}
+
+/* Hiring partner section  */
+
+.gradient-text {
+  background: linear-gradient(276.97deg, #992fed 0%, #2f80ed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.partner-logo {
+  max-height: 80px;
+  width: 130px;
+}
+.btn-primary {
+  background: linear-gradient(276.97deg, #992fed 0%, #2f80ed 100%);
+  border: none;
+}
+.btn-primary:hover {
+  background: linear-gradient(276.97deg, #2f80ed 0%, #992fed 100%);
+}
+/* Bottom section */
+
+.wall-of-love {
+  padding: 2rem 0;
+  text-align: center;
+}
+.wall-of-love h2 {
+  margin-bottom: 2rem;
+}
+.testimonial {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  margin-top: 0px;
+  height: fit-content;
+  font-style: ABeeZee;
+}
+.testimonial .media img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.testimonial h5 {
+  font-family: ABeeZee;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: left;
+}
+.testimonial p {
+  font-size: 16px;
+  font-weight: 602;
+  line-height: 24px;
+  text-align: left;
+  background: rgba(103, 103, 103, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.date {
+  color: #aaa;
+  font-size: 0.9rem;
+  text-align: left;
+  margin-top: 10px;
+}
+.testimonial .icon {
+  font-size: 24px;
+  color: #fff;
+  background: #000;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+.testimonial .icon.linkedin {
+  background: #0077b5;
+}
+.testimonial .icon.twitter {
+  background: #1da1f2;
+}
+.linkdin {
+  background: rgba(0, 119, 181, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 30px;
+}
